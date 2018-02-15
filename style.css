@@ -10,11 +10,11 @@ body{
 
 
 #job{
-    color: darkgrey;
+    color: #424242;
 }
 
 nav{
-    background-color: #78909c;
+    background-color: ghostwhite;
     height: 72px;
 }
 
@@ -25,6 +25,7 @@ nav ul li {
 
 .navLink{
     font-size:20px;
+    color: black;
 }
 
 
@@ -64,4 +65,62 @@ nav ul li {
     padding-right:10px;
     color: black;
 
+}
+
+/*.background-image{*/
+    /*background-image: url("images/krog_black_and_white.jpg");*/
+    /*background-repeat: repeat-y;*/
+    /*height: 100vh;*/
+    /*background-size: cover;*/
+
+/*}*/
+
+#videoContainer{
+    margin-top:25px;
+
+}
+
+.video{
+    float:left;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.centered-container {
+    background-image: url("images/atl_3_bw.jpg");
+    background-repeat: repeat-y;
+    height: 100vh;
+    background-size: cover;
+    overflow: scroll;
+}
+
+/*#container{*/
+    /*background-image: url("images/krog_black_and_white.jpg");*/
+    /*background-repeat: repeat-y;*/
+    /*height: 100vh;*/
+    /*background-size: cover;*/
+/*}*/
+
+#card{
+    background-color: rgba(255,255,255, 0.9);
+    margin: auto;
+    position: absolute;
+    left:25%;
+    right: 25%;
+    margin-top:20px;
+    border-radius: 8px;
+    padding-bottom: 25px;
+}
+
+.card{
+    background-color: rgba(255,255,255, 0.9);
+    margin: auto;
+    margin-top:20px;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    margin-right:200px;
+    margin-left:200px;
 }
