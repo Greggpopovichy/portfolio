@@ -124,3 +124,9 @@ nav ul li {
     margin-right:200px;
     margin-left:200px;
 }
+
+#videoCard {
+    font-size: 18px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
